@@ -72,7 +72,7 @@ This is a **full-stack web application** built with **Next.js (TypeScript) and S
 | User Profile | Logs | Profile Image (Before Update) |
 | <img src="screenshots/ViewUser.png" width="250" /> | <img src="screenshots/Logs.png" width="250" /> | <img src="screenshots/PFPBefore.png" width="250" /> |
 | Edit profile page | Edit Profile Image Upload (Uploadthing) | Profile Updated |
-|  <img src="screenshots/EditProfile.png" width="250" /> | <img src="screenshots/EditProfileImageUploaded.png" width="250" /> |  <img src="screenshots/SuccessfulProfileImageChange.png" width="250" /> |
+|  <img src="screenshots/EditProfile.png" width="250" /> | <img src="screenshots/EditProfileImgUploaded.png" width="250" /> |  <img src="screenshots/SuccessfulProfileImageChange.png" width="250" /> |
 | Profile Image (After next sign in) |
 |  <img src="screenshots/PFPAfter.png" width="250" /> |
 
