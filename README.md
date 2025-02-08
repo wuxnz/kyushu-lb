@@ -1,8 +1,27 @@
-# Next.js & Dart Web Application
+# Kyushu LB: Next.js & Dart Web Application
 
 ## Overview
 
 This is a **full-stack web application** built with **Next.js (TypeScript) and Shadcn** for the frontend, and **Dart with Alfred and Sembast** for the backend. The project was originally developed for a client but is no longer actively maintained as it is no longer needed.
+
+---
+
+## Tech Stack
+
+### Frontend:
+
+- **Next.js (TypeScript)**
+- **Shadcn/UI** (For UI components)
+- **React-Auth-Kit** (Authentication handling)
+- **Uploadthing** (For file uploads)
+
+### Backend:
+
+- **Dart**
+- **Alfred** (Express.js-like API framework for Dart)
+- **Sembast** (JSON-like local database)
+
+---
 
 ## Features
 
@@ -41,20 +60,24 @@ This is a **full-stack web application** built with **Next.js (TypeScript) and S
 - **Admin & Moderation Tools**
   - View logs (Admins and higher roles only).
 
-## Tech Stack
+---
 
-### Frontend:
+## Screenshots
 
-- **Next.js (TypeScript)**
-- **Shadcn/UI** (For UI components)
-- **React-Auth-Kit** (Authentication handling)
-- **Uploadthing** (For file uploads)
+| Home Page | Sign In | Sign Up |
+|-----------|---------|---------|
+| <img src="screenshots/HomeScreen.png" width="250" /> | <img src="screenshots/SignIn.png" width="250" /> | <img src="screenshots/SignUp.png" width="250" /> |
+| Successful Sign In | User Dashboard | Leaderboard |
+| <img src="screenshots/SuccessfulSignIn.png" width="250" /> | <img src="screenshots/Dashboard.png" width="250" /> | <img src="screenshots/Leaderboard.png" width="250" /> |
+| User Profile | Logs | Profile Image (Before Update) |
+| <img src="screenshots/ViewUser.png" width="250" /> | <img src="screenshots/Logs.png" width="250" /> | <img src="screenshots/PFPBefore.png" width="250" /> |
+| Edit profile page | Edit Profile Image Upload (Uploadthing) | Profile Updated |
+|  <img src="screenshots/EditProfile.png" width="250" /> | <img src="screenshots/EditProfileImageUploaded.png" width="250" /> |  <img src="screenshots/SuccessfulProfileImageChange.png" width="250" /> |
+| Profile Image (After next sign in) |
+|  <img src="screenshots/PFPAfter.png" width="250" /> |
 
-### Backend:
 
-- **Dart**
-- **Alfred** (Express.js-like API framework for Dart)
-- **Sembast** (JSON-like local database)
+---
 
 ## Deployment & Usage
 
